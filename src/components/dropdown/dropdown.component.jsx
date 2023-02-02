@@ -1,7 +1,5 @@
 import { data } from '../../data';
 
-import './dropdown.styles.css';
-
 const repeat = obj => {
   const subCategories = obj?.child?.map(subCategory => {
     return (
